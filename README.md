@@ -10,3 +10,8 @@ This repository demonstrates a basic Kubernetes Deployment and Service.
 
 ### Purpose
 To showcase production-ready Kubernetes configuration basics.
+
+### Autoscaling
+A Horizontal Pod Autoscaler is configured to automatically scale pods
+based on CPU utilization to handle varying workloads.
+
