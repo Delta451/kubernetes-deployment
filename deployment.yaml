@@ -40,3 +40,6 @@ readinessProbe:
 metadata:
   name: flask-app
   namespace: dev
+envFrom:
+  - configMapRef:
+      name: flask-app-config
