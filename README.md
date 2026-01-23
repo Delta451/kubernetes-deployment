@@ -15,3 +15,8 @@ To showcase production-ready Kubernetes configuration basics.
 A Horizontal Pod Autoscaler is configured to automatically scale pods
 based on CPU utilization to handle varying workloads.
 
+### Validation & Operations
+kubectl get all -n dev
+kubectl describe deployment flask-app -n dev
+kubectl get hpa -n dev
+
